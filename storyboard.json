@@ -1,0 +1,388 @@
+{
+  "version": 1,
+  "title": {
+    "native": "የጉለሌው ሰካራም",
+    "english": "The Drunkard of Gulele",
+    "credit": "Adapted from the short story by Temesgen Gebre (Addis Ababa, 1948)"
+  },
+  "language": {
+    "narration": "am-ET",
+    "subtitles": "en"
+  },
+  "audience": "DRAFT - confirm: young Ethiopians at home and in the diaspora (18-35) who have heard the title 'Yegulelew Sekaram' but never read it, watching on a phone, vertical, shared through family WhatsApp and TikTok.",
+  "intent": "DRAFT - confirm: viewers laugh at Tebeje first, then feel the weight of a promise that keeps breaking, and end on Weyzero Tiruneshe's line knowing the first Amharic short story is funny, sad and still true.",
+  "render": {
+    "fps": 24,
+    "aspects": {
+      "16x9": {
+        "width": 1920,
+        "height": 1080,
+        "sub_font_size": 16,
+        "sub_margin_v": 22,
+        "sub_wrap_chars": 42
+      },
+      "9x16": {
+        "width": 1080,
+        "height": 1920,
+        "sub_font_size": 9,
+        "sub_margin_v": 70,
+        "sub_wrap_chars": 30
+      }
+    },
+    "target_duration_s": [
+      60,
+      90
+    ],
+    "narration_lead_s": 0.1,
+    "narration_tail_s": 0.2
+  },
+  "style": {
+    "block": "cinematic film still, shot on 35mm film with an anamorphic lens, shallow depth of field, dramatic warm practical lighting, rich film grain, muted earthy colour grade of ochre, eucalyptus green and deep shadow, Addis Ababa in the 1940s, photorealistic, highly detailed, main subject centred in the frame, no text, no letters, no watermark",
+    "negative": "photorealistic, modern clothing, cars from after 1950, text, letters, watermark, extra fingers, deformed hands"
+  },
+  "characters": {
+    "tebeje": {
+      "description": "Tebeje, an Ethiopian Habesha man about sixty years old, dark brown skin, gaunt weathered face, long matted grey-black hair that has never been cut, thick untrimmed grey beard, bloodshot glassy drunk eyes, stained off-white cotton gabi shawl over a worn khaki shirt and old jodhpur trousers, barefoot",
+      "reference_prompt": "character reference sheet, the same man shown front view, three-quarter view and side view, neutral grey background",
+      "reference_seed": 1941
+    },
+    "tiruneshe": {
+      "description": "Weyzero Tiruneshe, an elderly Ethiopian Habesha housekeeper, dark skin, small and calm, white cotton netela shawl with a coloured tibeb border over her head and shoulders, long white habesha dress, kind tired face",
+      "reference_prompt": "character reference sheet, the same woman shown front view and three-quarter view, neutral grey background",
+      "reference_seed": 1922
+    }
+  },
+  "models": {
+    "tts": {
+      "model": "gemini-3.1-flash-tts-preview",
+      "voice": "Charon",
+      "style_prompt": "Say",
+      "batch_size": 3
+    },
+    "image": {
+      "model": "@cf/black-forest-labs/flux-1-schnell",
+      "api_style": "json",
+      "send_seed": false,
+      "use_reference": false,
+      "params": {
+        "steps": 8
+      }
+    },
+    "video": {
+      "model": "Ken Burns (FFmpeg zoompan); Wan 2.2 TI2V-5B clips used when present in outputs/clips/",
+      "notes": "Drop a Wan clip at outputs/clips/<shot_id>.mp4 and the shots stage uses it instead of the pan-and-zoom."
+    }
+  },
+  "music": {
+    "model": "ACE-Step 1.5 (run on Kaggle, see notebooks/)",
+    "caption": "instrumental, slow Ethiopian tizita mood, solo masinqo and soft krar, gentle kebero hand drum far in the background, warm, nostalgic, sparse, no lead melody under the voice, theme returns at the end",
+    "bpm": 72,
+    "key": "C minor",
+    "duration_s": 95,
+    "instrumental": true,
+    "chosen": null,
+    "volume_db": -6,
+    "duck": {
+      "threshold": 0.02,
+      "ratio": 6,
+      "attack_ms": 300,
+      "release_ms": 1500
+    },
+    "cues": [
+      {
+        "at_shot": "s24",
+        "note": "under the voice from the start"
+      },
+      {
+        "at_shot": "s06",
+        "note": "comic lift at the pig"
+      },
+      {
+        "at_shot": "s09",
+        "note": "near silence on the railway"
+      },
+      {
+        "at_shot": "s12",
+        "note": "theme returns, fades under the end card"
+      }
+    ]
+  },
+  "shots": [
+    {
+      "video_prompt": "slow gentle camera move, subtle natural motion",
+      "min_duration_s": 4,
+      "id": "s24",
+      "beat": "The drunk of Gulele",
+      "reason": "Establishes the place, the man and his reputation in one image.",
+      "shot_size": "wide",
+      "characters": [
+        "tebeje"
+      ],
+      "image_prompt": "dusk on a dirt road in Gulele between tall eucalyptus trees and thatched huts, Tebeje staggers drunk down the road holding two live chickens by their feet, neighbours watch from doorways",
+      "motion": "push_in",
+      "seed": 301,
+      "narration": "ተበጀ፣ ሰካራሙ ተበጀ፣ ዶሮ ነጋዴው ተበጀ ነው ብለው ይነግሯቸዋል።",
+      "subtitle": "Tebeje, they will tell you. Tebeje the drunk. Tebeje the chicken trader.",
+      "audio_source": {
+        "file": "assets/narration/atronos_full.m4a",
+        "segments": [
+          [
+            18.4,
+            26.9
+          ]
+        ]
+      },
+      "notes": "Short form of s01 for the 90 s cut; same image as s01. The full opening sentence is s01 in storyboard_family.json.",
+      "keyframe_from": "s01"
+    },
+    {
+      "video_prompt": "slow gentle camera move, subtle natural motion",
+      "min_duration_s": 4,
+      "id": "s03",
+      "beat": "The drunkard of Gulele's house",
+      "reason": "Turning point: he hears his own reputation and is shaken.",
+      "shot_size": "close_up",
+      "characters": [
+        "tebeje"
+      ],
+      "image_prompt": "inside a dark thatched hut lit by a single kuraz oil lamp, Tebeje holds his head in his hands, shocked and ashamed",
+      "motion": "push_in",
+      "seed": 303,
+      "narration": "‹ዶሮ ነጋዴው የትኛው ነው?› ሲባል ‹ያ የጉለሌው ሰካራም› ሊባል ነው። አወይ! እኔ ተበጀ፤ ተበላሽቻለሁ አለና ደነገጠ።",
+      "subtitle": "'Which chicken trader?' 'That drunkard of Gulele.' 'Oh! Me, Tebeje, I am ruined,' he said, shaken.",
+      "audio_source": {
+        "file": "assets/narration/atronos_full.m4a",
+        "segments": [
+          [
+            210.75,
+            221.35
+          ]
+        ]
+      }
+    },
+    {
+      "video_prompt": "slow gentle camera move, subtle natural motion",
+      "min_duration_s": 4,
+      "id": "s04",
+      "beat": "Gulele is asleep",
+      "reason": "The vow breaks the same night; the laugh keeps him human.",
+      "shot_size": "medium",
+      "characters": [
+        "tebeje"
+      ],
+      "image_prompt": "night, full moon, Tebeje sits drunk on the ground under a huge eucalyptus tree, raising a whisky bottle to the moonlight and laughing, empty bottles around him",
+      "motion": "pull_out",
+      "seed": 304,
+      "narration": "ጉለሌ ተኝቷልና ከዚሁ ከባሕር ዛፍ ሥር ቁጭ ብዬ ብጠጣ የሚታዘበኝ የለም አለና አሰበ።",
+      "subtitle": "'Gulele is asleep. If I sit under this eucalyptus and drink, no one will see me,' he thought.",
+      "audio_source": {
+        "file": "assets/narration/atronos_full.m4a",
+        "segments": [
+          [
+            376.85,
+            383.35
+          ]
+        ]
+      }
+    },
+    {
+      "video_prompt": "slow gentle camera move, subtle natural motion",
+      "min_duration_s": 4,
+      "id": "s06",
+      "beat": "It was a pig",
+      "reason": "His only brave deed becomes a joke: a drunk's courage counts for nothing.",
+      "shot_size": "medium",
+      "characters": [
+        "tebeje"
+      ],
+      "image_prompt": "a muddy riverbank after a flood, Tebeje lies soaked and exhausted beside a big wet pig, villagers in gabis behind him laughing",
+      "motion": "pull_out",
+      "seed": 305,
+      "narration": "‹ሴትዮዋ ድናለች?› ብሎ በርኅራሄ ድምፅ ጠየቃቸው። አንዱ ቀረበና ‹አሳማ ነው ያወጣኸው› አለው።",
+      "subtitle": "'Is the woman saved?' he asked tenderly. One came closer: 'It's a pig you pulled out.'",
+      "audio_source": {
+        "file": "assets/narration/atronos_full.m4a",
+        "segments": [
+          [
+            662.5,
+            669.35
+          ]
+        ]
+      }
+    },
+    {
+      "video_prompt": "slow gentle camera move, subtle natural motion",
+      "min_duration_s": 4,
+      "id": "s07",
+      "beat": "Just today, just a little",
+      "reason": "After nearly two sober years, the craving wins.",
+      "shot_size": "medium_close_up",
+      "characters": [
+        "tebeje"
+      ],
+      "image_prompt": "night, Tebeje lies awake on his wooden bed in his dark hut, staring at the door, restless and tempted, moonlight across his face",
+      "motion": "push_in",
+      "seed": 306,
+      "narration": "ሹልክ ብዬ ዛሬ ብቻ፣ ጥቂት ብቻ፣ አንድ ጊዜ ብቻ፣ እኔ ብቻ፣ ብጠጣ ምን ይጐዳል",
+      "subtitle": "'If I slip out, just today, just a little, just once, just me... what harm could it do?'",
+      "audio_source": {
+        "file": "assets/narration/atronos_full.m4a",
+        "segments": [
+          [
+            1082.85,
+            1091.1
+          ]
+        ]
+      }
+    },
+    {
+      "video_prompt": "slow gentle camera move, subtle natural motion",
+      "min_duration_s": 4,
+      "id": "s08",
+      "beat": "Carried like a leader",
+      "reason": "His old drinking friends welcome him back like a hero.",
+      "shot_size": "wide",
+      "characters": [
+        "tebeje"
+      ],
+      "image_prompt": "inside a crowded smoky 1940s Addis Ababa tavern lit by oil lamps, cheering drunk men carry Tebeje on their shoulders, raising bottles like palm branches",
+      "motion": "push_in",
+      "seed": 307,
+      "narration": "እንደተወደደ መሪ በጫንቃቸው ላይ ተሸክመው እየተቀባበሉት በእልልታ ጮሁ።",
+      "subtitle": "Like a beloved leader they carried him on their shoulders, passing him along, cheering.",
+      "audio_source": {
+        "file": "assets/narration/atronos_full.m4a",
+        "segments": [
+          [
+            1190.7,
+            1196.4
+          ]
+        ]
+      }
+    },
+    {
+      "video_prompt": "slow gentle camera move, subtle natural motion",
+      "min_duration_s": 4,
+      "id": "s09",
+      "beat": "The railway",
+      "reason": "The price of drink, shown without gore.",
+      "shot_size": "wide",
+      "characters": [
+        "tebeje"
+      ],
+      "image_prompt": "grey dawn, Tebeje lies broken in tall dry grass beside an old railway track, a dead donkey nearby, vultures landing",
+      "motion": "tilt_up",
+      "seed": 308,
+      "narration": "ከኋላው በኩል ትልቅ ኀይል መታው። ከፊቱ በኩል የቀበሮ ጉድጓድ ተቀበለው። እግሩ እንደ ብርጭቆ ነከተ።",
+      "subtitle": "A great force struck him from behind. A fox hole caught him in front. His leg shattered like glass.",
+      "audio_source": {
+        "file": "assets/narration/atronos_full.m4a",
+        "segments": [
+          [
+            1338.15,
+            1351.25
+          ]
+        ]
+      }
+    },
+    {
+      "video_prompt": "slow gentle camera move, subtle natural motion",
+      "min_duration_s": 4,
+      "id": "s10",
+      "beat": "How many legs do I have?",
+      "reason": "The dream breaks; the comic, human exchange releases the tension.",
+      "shot_size": "medium",
+      "characters": [
+        "tebeje",
+        "tiruneshe"
+      ],
+      "image_prompt": "night inside the hut, Tebeje sits up in bed sweating and terrified, clutching his legs, Weyzero Tiruneshe stands holding a small oil lamp",
+      "motion": "static",
+      "seed": 309,
+      "narration": "‹ስንት እግር ነው ያለኝ?› ብሎ ጠየቃቸው። ወይዘሮ ጥሩነሽም ‹ዱሮ ስንት እግር ነበረዎ ጌታ?› ብለው ጠየቁት።",
+      "subtitle": "'How many legs do I have?' he asked. Weyzero Tiruneshe replied, 'How many did you have before, sir?'",
+      "audio_source": {
+        "file": "assets/narration/atronos_full.m4a",
+        "segments": [
+          [
+            1548.95,
+            1557.45
+          ]
+        ]
+      }
+    },
+    {
+      "video_prompt": "slow gentle camera move, subtle natural motion",
+      "min_duration_s": 4,
+      "id": "s12",
+      "beat": "Nights of such vows pass",
+      "reason": "His biggest vow and her quiet doubt; the viewer decides.",
+      "shot_size": "wide",
+      "characters": [
+        "tebeje",
+        "tiruneshe"
+      ],
+      "image_prompt": "Tebeje stands in the doorway of his thatched hut looking up at a starry night sky, Weyzero Tiruneshe in the shadow behind him holding the lamp",
+      "motion": "pull_out",
+      "seed": 310,
+      "narration": "ወደ ሰማይ እያየ ‹መጠጥ ማለት ለእኔ ሞት ማለት ነው› አለ። ጊዜውም ሌሊት ነበር። ‹እንደዚህ የማሉበት ሌሊት ያልፋል› ብለው ወይዘሮ ጥሩነሽ መለሱለት።",
+      "subtitle": "Looking at the sky he said, 'For me, drink means death.' It was night. 'Nights of such vows pass,' Weyzero Tiruneshe replied.",
+      "audio_source": {
+        "file": "assets/narration/atronos_full.m4a",
+        "segments": [
+          [
+            1593.7,
+            1608.39
+          ]
+        ]
+      }
+    }
+  ],
+  "end_card": {
+    "lines": [
+      "የጉለሌው ሰካራም",
+      "The Drunkard of Gulele",
+      "After the short story by Temesgen Gebre (1948)",
+      "Made with AI: images FLUX, music ACE-Step"
+    ],
+    "duration_s": 3.0
+  },
+  "revisions": [
+    {
+      "date": "2026-11-26",
+      "source": "measurement: real TTS radio cut 98.8 s (run 20261126T121915-b2bf) vs 90 s limit",
+      "change": "Cut s02 'Meet Tebeje' (s01 already names him, s03 shows his face). Lead 0.4->0.3 s, tail 0.5->0.4 s. Removed shot kept here: {\"narration\": \"ጢም ያለው ሽማግሌ። ማለዳ ዝም ይላል፤ ማታ ግን ከሁሉ ጋር ይስቃል።\", \"subtitle\": \"A bearded old man. Silent in the morning, at night he laughs with everyone.\", \"image_prompt\": \"Tebeje stands at a dusty roadside market holding two live chickens by their feet, laughing loudly with his mouth open, evening light\"}"
+    },
+    {
+      "date": "2026-11-26",
+      "source": "user (native speaker) after comparing with the Ethio Atronos audiobook of the original",
+      "change": "Narration rewritten as near-verbatim excerpts of Temesgen Gebre's text in the original order; temptation night (s09) split from the tavern (s10); railway line now follows the text (struck from behind, leg shattered); doctor's line and the dogs waking him restored. Shots renumbered s10-s14, approved keyframes reused."
+    },
+    {
+      "date": "2026-11-26",
+      "source": "user direction",
+      "change": "1-minute cut (10 shots, target 58-66 s); narration from Samuel Adugna's Ethio Atronos audiobook with permission; cinematic photoreal look; Tebeje clearly Ethiopian (Habesha) and visibly drunk."
+    },
+    {
+      "date": "2026-11-26",
+      "source": "user: 90 s submission cut + separate 3-minute family cut",
+      "change": "12 continuous passages from the audiobook in story order (added the flood dive s05 and 'two legs, sir' s11). Continuous sentences instead of spliced short quotes: easier to locate and no audible splices."
+    },
+    {
+      "date": "2026-11-26",
+      "source": "measurement: 12 passages = ~110 s of his speech",
+      "change": "Submission cut keeps 9 passages (s01,s03,s04,s06,s07,s08,s09,s10,s12); s02, s05, s11 live in storyboard_family.json."
+    },
+    {
+      "date": "2026-11-26",
+      "source": "user (native speaker)",
+      "change": "S01 uses the full opening sentence."
+    },
+    {
+      "date": "2026-11-26",
+      "source": "user choice (option C)",
+      "change": "90 s cut keeps the short S01 (shot s24, 8.5 s) so every story beat fits; the full four-passage opening lives in the family cut."
+    }
+  ],
+  "narration_credit": "Narration: Ethio Atronos audiobook, used with permission"
+}

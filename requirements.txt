@@ -1,0 +1,5 @@
+requests>=2.31
+jsonschema>=4.21
+pillow>=10.1
+python-dotenv>=1.0
+imageio-ffmpeg>=0.5   # bundled ffmpeg if none on PATH

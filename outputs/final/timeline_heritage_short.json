@@ -1,0 +1,74 @@
+[
+  {
+    "id": "s24",
+    "start": 0.0,
+    "duration": 8.791666666666666,
+    "frames": 211,
+    "voice_start": 0.1,
+    "voice_duration": 8.5
+  },
+  {
+    "id": "s03",
+    "start": 8.792,
+    "duration": 10.916666666666666,
+    "frames": 262,
+    "voice_start": 8.892,
+    "voice_duration": 10.6
+  },
+  {
+    "id": "s04",
+    "start": 19.708,
+    "duration": 6.791666666666667,
+    "frames": 163,
+    "voice_start": 19.808,
+    "voice_duration": 6.5
+  },
+  {
+    "id": "s06",
+    "start": 26.5,
+    "duration": 7.166666666666667,
+    "frames": 172,
+    "voice_start": 26.6,
+    "voice_duration": 6.85
+  },
+  {
+    "id": "s07",
+    "start": 33.667,
+    "duration": 8.541666666666666,
+    "frames": 205,
+    "voice_start": 33.767,
+    "voice_duration": 8.25
+  },
+  {
+    "id": "s08",
+    "start": 42.208,
+    "duration": 6.0,
+    "frames": 144,
+    "voice_start": 42.308,
+    "voice_duration": 5.7
+  },
+  {
+    "id": "s09",
+    "start": 48.208,
+    "duration": 13.416666666666666,
+    "frames": 322,
+    "voice_start": 48.308,
+    "voice_duration": 13.1
+  },
+  {
+    "id": "s10",
+    "start": 61.625,
+    "duration": 8.791666666666666,
+    "frames": 211,
+    "voice_start": 61.725,
+    "voice_duration": 8.5
+  },
+  {
+    "id": "s12",
+    "start": 70.417,
+    "duration": 15.0,
+    "frames": 360,
+    "voice_start": 70.517,
+    "voice_duration": 14.69
+  }
+]

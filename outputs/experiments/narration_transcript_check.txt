@@ -1,0 +1,37 @@
+model: gemini-3.5-transcribe
+s01
+  heard:    በጉለሌ ዶሮ እና ጋዲዮ ማን ነው ብትሉ ተበጀ ነው ይሏችኋል ሰካራሙ ተበጀ
+  expected: በጉለሌ ዶሮ ነጋዴው ማነው ብትሉ፣ ተበጀ ነው ይሏችኋል። ሰካራሙ ተበጀ።
+s03
+  heard:    ቤቱን በገዛጁ ሳራ ተበጀኮራ አይኖቹን እምባ አዘሉ
+  expected: ቤቱን በገዛ እጁ ሠራ። ተበጀ ኮራ፤ ዓይኖቹም እንባ አዘሉ።
+s04
+  heard:    የህይमान ቤት ነው ሲባል የሰካራሙ ሊባል ነው ስለቤቱ ክብር መጣጥ ሊተዋሰበ
+  expected: ‹ይህ የማን ቤት ነው?› ሲባል ‹የሰካራሙ› ሊባል ነው። ስለ ቤቱ ክብር መጠጥ ሊተው አሰበ።
+s05
+  heard:    ያን ለሊት ግን ከባህር ዛፉ ስር ዊስኪ ጨለጠ። ጉለሌ ተኝቷል ብሎ ሳቀ።
+  expected: ያን ሌሊት ግን ከባሕር ዛፉ ሥር ዊስኪ ጨለጠ። ‹ጉለሌ ተኝቷል› ብሎ ሳቀ።
+s06
+  heard:    ጉርፍ ገረዲቱን ወሰላት ተባለ። ማንም አልገባም። ተበጀ ብቻ ዘሎ ገባ።
+  expected: ጎርፍ ገረዲቱን ወሰዳት ተባለ። ማንም አልገባም፤ ተበጀ ብቻ ዘሎ ገባ።
+s07
+  heard:    ERR You exceeded your current quota, please check your plan and billing details. For more information on this error, head to
+  expected: ያወጣው ግን አሳማ ነበር። የሰካራም ጀግንነት አይቆጠርም።
+s08
+  heard:    አንዳመት ዘጠኝ ወር ዘጠኝ ቀን ገንዘብ እያለው ውሃ ጣፈጠው
+  expected: አንድ ዓመት፣ ዘጠኝ ወር፣ ዘጠኝ ቀን። ገንዘብ እያለው ውሃ ጣፈጠው።
+s09
+  heard:    ERR You exceeded your current quota, please check your plan and billing details. For more information on this error, head to
+  expected: ‹ዛሬ ብቻ፣ ጥቂት ብቻ› አለ። በመጠጥ ቤት ወዳጆቹ በትከሻቸው ተሸከሙት።
+s10
+  heard:    ERR You exceeded your current quota, please check your plan and billing details. For more information on this error, head to
+  expected: በባቡር ሀዲድ ላይ ወደቀ። እግሩ እንደ ብርጭቆ ተሰበረ። አሞራዎች ከበቡት።
+s11
+  heard:    ERR You exceeded your current quota, please check your plan and billing details. For more information on this error, head to
+  expected: ሐኪሙ እግሩን ቆረጠው… ውሾች ሲጮሁ ግን ነቃ። ሕልም ነበር።
+s12
+  heard:    ERR You exceeded your current quota, please check your plan and billing details. For more information on this error, head to
+  expected: ‹ስንት እግር ነው ያለኝ?› ብሎ ጮኸ። ጥሩነሽ ‹ሁለት እግሮች አሉዎት ጌታ› አሉት።
+s13
+  heard:    ERR You exceeded your current quota, please check your plan and billing details. For more information on this error, head to
+  expected: ‹መጠጥ ለእኔ ሞት ነው› ብሎ ማለ። ጥሩነሽም ‹እንዲህ የማሉበት ሌሊት ያልፋል› አሉ።

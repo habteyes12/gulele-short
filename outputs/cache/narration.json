@@ -1,0 +1,146 @@
+{
+  "s01": {
+    "hash": "c917ee421297de15",
+    "output": "outputs/narration/s01.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:35:00+00:00"
+  },
+  "s02": {
+    "hash": "78da7cdf4e3b6e97",
+    "output": "outputs/narration/s02.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:41+00:00"
+  },
+  "s03": {
+    "hash": "c2c2ab957a4a1405",
+    "output": "outputs/narration/s03.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:37+00:00"
+  },
+  "s04": {
+    "hash": "c034e716f7cdd6a5",
+    "output": "outputs/narration/s04.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:37+00:00"
+  },
+  "s05": {
+    "hash": "b3689c32d99d737b",
+    "output": "outputs/narration/s05.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:42+00:00"
+  },
+  "s06": {
+    "hash": "9141033b37d3b3b6",
+    "output": "outputs/narration/s06.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:37+00:00"
+  },
+  "s07": {
+    "hash": "5cef7aa0fe031d76",
+    "output": "outputs/narration/s07.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:37+00:00"
+  },
+  "s11": {
+    "hash": "f8ce507909314b93",
+    "output": "outputs/narration/s11.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:43+00:00"
+  },
+  "s12": {
+    "hash": "dcfc7ef4924f73ad",
+    "output": "outputs/narration/s12.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:38+00:00"
+  },
+  "s13": {
+    "hash": "3b767c7c122737db",
+    "output": "outputs/narration/s13.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:41+00:00"
+  },
+  "s08": {
+    "hash": "61c115d1285a2d1e",
+    "output": "outputs/narration/s08.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:38+00:00"
+  },
+  "s09": {
+    "hash": "8c1c39447b2b816f",
+    "output": "outputs/narration/s09.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:38+00:00"
+  },
+  "s10": {
+    "hash": "b0fad470c6ed2884",
+    "output": "outputs/narration/s10.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:38+00:00"
+  },
+  "s14": {
+    "hash": "7a1d3ad2cd9963fa",
+    "output": "outputs/narration/s14.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:42+00:00"
+  },
+  "s15": {
+    "hash": "2795ae853488d1b1",
+    "output": "outputs/narration/s15.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:42+00:00"
+  },
+  "s16": {
+    "hash": "5828f2bbcd2bb50c",
+    "output": "outputs/narration/s16.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:42+00:00"
+  },
+  "s17": {
+    "hash": "8bd96b7f13a01db7",
+    "output": "outputs/narration/s17.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:43+00:00"
+  },
+  "s18": {
+    "hash": "f13ff0cf9d94e8d8",
+    "output": "outputs/narration/s18.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:43+00:00"
+  },
+  "s19": {
+    "hash": "c17ca376e254fa26",
+    "output": "outputs/narration/s19.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:43+00:00"
+  },
+  "s20": {
+    "hash": "ab16440c7a9d35d2",
+    "output": "outputs/narration/s20.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:18:43+00:00"
+  },
+  "s21": {
+    "hash": "345462bff3f19c65",
+    "output": "outputs/narration/s21.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:35:00+00:00"
+  },
+  "s22": {
+    "hash": "a4d8ca2f6d6443f9",
+    "output": "outputs/narration/s22.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:35:01+00:00"
+  },
+  "s23": {
+    "hash": "6d88cb37872392f5",
+    "output": "outputs/narration/s23.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:35:01+00:00"
+  },
+  "s24": {
+    "hash": "e398e2d3eddaca0e",
+    "output": "outputs/narration/s24.wav",
+    "mode": "external",
+    "updated": "2026-11-26T14:36:38+00:00"
+  }
+}

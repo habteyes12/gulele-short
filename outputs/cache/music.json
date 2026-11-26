@@ -1,0 +1,26 @@
+{
+  "score": {
+    "hash": "85ee0d6a418b7d53",
+    "output": "outputs/music/score.wav",
+    "mode": "placeholder",
+    "updated": "2026-11-26T06:13:36+00:00"
+  },
+  "score_95s": {
+    "hash": "85ee0d6a418b7d53",
+    "output": "outputs/music/score_95s.wav",
+    "mode": "placeholder",
+    "updated": "2026-11-26T13:46:19+00:00"
+  },
+  "score_200s": {
+    "hash": "cebb9145749d0d1a",
+    "output": "outputs/music/score_200s.wav",
+    "mode": "placeholder",
+    "updated": "2026-11-26T13:57:45+00:00"
+  },
+  "score_245s": {
+    "hash": "c60a6a85620b7e27",
+    "output": "outputs/music/score_245s.wav",
+    "mode": "placeholder",
+    "updated": "2026-11-26T14:38:43+00:00"
+  }
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "s01",
+    "start": 0.0,
+    "duration": 17.833333333333332,
+    "frames": 428,
+    "voice_start": 0.2,
+    "voice_duration": 17.35
+  },
+  {
+    "id": "s13",
+    "start": 17.833,
+    "duration": 11.291666666666666,
+    "frames": 271,
+    "voice_start": 18.033,
+    "voice_duration": 10.8
+  },
+  {
+    "id": "s21",
+    "start": 29.125,
+    "duration": 21.458333333333332,
+    "frames": 515,
+    "voice_start": 29.325,
+    "voice_duration": 20.95
+  },
+  {
+    "id": "s22",
+    "start": 50.583,
+    "duration": 18.416666666666668,
+    "frames": 442,
+    "voice_start": 50.783,
+    "voice_duration": 17.9
+  },
+  {
+    "id": "s23",
+    "start": 69.0,
+    "duration": 22.833333333333332,
+    "frames": 548,
+    "voice_start": 69.2,
+    "voice_duration": 22.35
+  },
+  {
+    "id": "s02",
+    "start": 91.833,
+    "duration": 10.791666666666666,
+    "frames": 259,
+    "voice_start": 92.033,
+    "voice_duration": 10.3
+  },
+  {
+    "id": "s14",
+    "start": 102.625,
+    "duration": 11.291666666666666,
+    "frames": 271,
+    "voice_start": 102.825,
+    "voice_duration": 10.8
+  },
+  {
+    "id": "s03",
+    "start": 113.917,
+    "duration": 11.083333333333334,
+    "frames": 266,
+    "voice_start": 114.117,
+    "voice_duration": 10.6
+  },
+  {
+    "id": "s15",
+    "start": 125.0,
+    "duration": 7.083333333333333,
+    "frames": 170,
+    "voice_start": 125.2,
+    "voice_duration": 6.6
+  },
+  {
+    "id": "s04",
+    "start": 132.083,
+    "duration": 7.0,
+    "frames": 168,
+    "voice_start": 132.283,
+    "voice_duration": 6.5
+  },
+  {
+    "id": "s16",
+    "start": 139.083,
+    "duration": 4.708333333333333,
+    "frames": 113,
+    "voice_start": 139.283,
+    "voice_duration": 4.2
+  },
+  {
+    "id": "s05",
+    "start": 143.792,
+    "duration": 8.041666666666666,
+    "frames": 193,
+    "voice_start": 143.992,
+    "voice_duration": 7.53
+  },
+  {
+    "id": "s06",
+    "start": 151.833,
+    "duration": 7.333333333333333,
+    "frames": 176,
+    "voice_start": 152.033,
+    "voice_duration": 6.85
+  },
+  {
+    "id": "s17",
+    "start": 159.167,
+    "duration": 9.458333333333334,
+    "frames": 227,
+    "voice_start": 159.367,
+    "voice_duration": 8.95
+  },
+  {
+    "id": "s18",
+    "start": 168.625,
+    "duration": 8.166666666666666,
+    "frames": 196,
+    "voice_start": 168.825,
+    "voice_duration": 7.65
+  },
+  {
+    "id": "s07",
+    "start": 176.792,
+    "duration": 8.75,
+    "frames": 210,
+    "voice_start": 176.992,
+    "voice_duration": 8.25
+  },
+  {
+    "id": "s08",
+    "start": 185.542,
+    "duration": 6.208333333333333,
+    "frames": 149,
+    "voice_start": 185.742,
+    "voice_duration": 5.7
+  },
+  {
+    "id": "s09",
+    "start": 191.75,
+    "duration": 13.583333333333334,
+    "frames": 326,
+    "voice_start": 191.95,
+    "voice_duration": 13.1
+  },
+  {
+    "id": "s19",
+    "start": 205.333,
+    "duration": 8.791666666666666,
+    "frames": 211,
+    "voice_start": 205.533,
+    "voice_duration": 8.3
+  },
+  {
+    "id": "s20",
+    "start": 214.125,
+    "duration": 8.583333333333334,
+    "frames": 206,
+    "voice_start": 214.325,
+    "voice_duration": 8.1
+  },
+  {
+    "id": "s10",
+    "start": 222.708,
+    "duration": 9.0,
+    "frames": 216,
+    "voice_start": 222.908,
+    "voice_duration": 8.5
+  },
+  {
+    "id": "s11",
+    "start": 231.708,
+    "duration": 10.0,
+    "frames": 240,
+    "voice_start": 231.908,
+    "voice_duration": 9.5
+  },
+  {
+    "id": "s12",
+    "start": 241.708,
+    "duration": 15.208333333333334,
+    "frames": 365,
+    "voice_start": 241.908,
+    "voice_duration": 14.69
+  }
+]

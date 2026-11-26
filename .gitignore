@@ -1,0 +1,24 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+outputs/final/work_*/
+outputs/final/premix.wav
+outputs/final/stem_*.wav
+outputs/smoke/
+*.download
+# Full licensed audiobook: permission covers excerpts in the film, not redistribution. Only cut excerpts are committed.
+assets/narration/*.m4a
+assets/narration/*.mp3
+outputs/transcripts/*/chunk*.mp3
+outputs/transcripts/*/align/*.mp3
+outputs/final/mix_*.wav
+outputs/final/premix_*.wav
+outputs/final/stem_*.wav
+outputs/final/work_*/
+# Deterministic FFmpeg outputs: rebuilt by `python film.py` with zero model calls. Films are shared as links.
+outputs/final/*.mp4
+outputs/final/*.wav
+outputs/shots/
+outputs/music/score*.wav
+outputs/transcripts/*/align/

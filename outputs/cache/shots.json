@@ -1,0 +1,290 @@
+{
+  "16x9/s01": {
+    "hash": "89ca638507a965b8",
+    "output": "outputs/shots/16x9/s01.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:36:56+00:00"
+  },
+  "9x16/s01": {
+    "hash": "d9a4751452d7b467",
+    "output": "outputs/shots/9x16/s01.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:37:10+00:00"
+  },
+  "16x9/s02": {
+    "hash": "a5ee877daadc382d",
+    "output": "outputs/shots/16x9/s02.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:53:22+00:00"
+  },
+  "9x16/s02": {
+    "hash": "85e8b678c1133aab",
+    "output": "outputs/shots/9x16/s02.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:53:30+00:00"
+  },
+  "16x9/s03": {
+    "hash": "553f3e37e6508bf7",
+    "output": "outputs/shots/16x9/s03.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:57:56+00:00"
+  },
+  "9x16/s03": {
+    "hash": "bb50e275d9894b36",
+    "output": "outputs/shots/9x16/s03.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:58:11+00:00"
+  },
+  "16x9/s04": {
+    "hash": "39bf16c3cba428cb",
+    "output": "outputs/shots/16x9/s04.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:58:21+00:00"
+  },
+  "9x16/s04": {
+    "hash": "e73fe8d321656b0f",
+    "output": "outputs/shots/9x16/s04.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:58:28+00:00"
+  },
+  "16x9/s05": {
+    "hash": "f5bd46e1386e2024",
+    "output": "outputs/shots/16x9/s05.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:54:46+00:00"
+  },
+  "9x16/s05": {
+    "hash": "4efacf961f1be721",
+    "output": "outputs/shots/9x16/s05.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:54:53+00:00"
+  },
+  "16x9/s06": {
+    "hash": "b10104cb52e539f0",
+    "output": "outputs/shots/16x9/s06.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:58:35+00:00"
+  },
+  "9x16/s06": {
+    "hash": "5b3160751620deff",
+    "output": "outputs/shots/9x16/s06.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:58:43+00:00"
+  },
+  "16x9/s07": {
+    "hash": "38485da1b88f5580",
+    "output": "outputs/shots/16x9/s07.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:58:53+00:00"
+  },
+  "9x16/s07": {
+    "hash": "1e4313c0ed338d6e",
+    "output": "outputs/shots/9x16/s07.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:59:01+00:00"
+  },
+  "16x9/s08": {
+    "hash": "ddff22422bb769d0",
+    "output": "outputs/shots/16x9/s08.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:59:07+00:00"
+  },
+  "9x16/s08": {
+    "hash": "3cf0a97e0bf999e9",
+    "output": "outputs/shots/9x16/s08.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:59:13+00:00"
+  },
+  "16x9/s09": {
+    "hash": "fd4dc684541b1973",
+    "output": "outputs/shots/16x9/s09.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:59:22+00:00"
+  },
+  "9x16/s09": {
+    "hash": "ad574ae47895f208",
+    "output": "outputs/shots/9x16/s09.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:59:30+00:00"
+  },
+  "16x9/s10": {
+    "hash": "0c8000a7045d0417",
+    "output": "outputs/shots/16x9/s10.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:59:36+00:00"
+  },
+  "9x16/s10": {
+    "hash": "d52064d7f68a5e15",
+    "output": "outputs/shots/9x16/s10.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:59:41+00:00"
+  },
+  "16x9/s11": {
+    "hash": "c55e1f2c57e886f3",
+    "output": "outputs/shots/16x9/s11.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:56:54+00:00"
+  },
+  "9x16/s11": {
+    "hash": "79c466a3f8a9af64",
+    "output": "outputs/shots/9x16/s11.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:57:00+00:00"
+  },
+  "16x9/s12": {
+    "hash": "833cd8b1e6eaec87",
+    "output": "outputs/shots/16x9/s12.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:59:52+00:00"
+  },
+  "9x16/s12": {
+    "hash": "d80dcf9eb018f782",
+    "output": "outputs/shots/9x16/s12.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T15:00:05+00:00"
+  },
+  "16x9/s13": {
+    "hash": "173620992ada86be",
+    "output": "outputs/shots/16x9/s13.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:53:07+00:00"
+  },
+  "9x16/s13": {
+    "hash": "68c47de7ed52f948",
+    "output": "outputs/shots/9x16/s13.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:53:13+00:00"
+  },
+  "16x9/s14": {
+    "hash": "5b070cc2c2832865",
+    "output": "outputs/shots/16x9/s14.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:53:38+00:00"
+  },
+  "9x16/s14": {
+    "hash": "48c40994f443c96c",
+    "output": "outputs/shots/9x16/s14.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:53:48+00:00"
+  },
+  "16x9/s15": {
+    "hash": "347f60da75a171d5",
+    "output": "outputs/shots/16x9/s15.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:54:17+00:00"
+  },
+  "9x16/s15": {
+    "hash": "408b7ec4abd0ec09",
+    "output": "outputs/shots/9x16/s15.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:54:22+00:00"
+  },
+  "16x9/s16": {
+    "hash": "40e5f73f95c33284",
+    "output": "outputs/shots/16x9/s16.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:54:35+00:00"
+  },
+  "9x16/s16": {
+    "hash": "11d17f06d7eea7d2",
+    "output": "outputs/shots/9x16/s16.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:54:39+00:00"
+  },
+  "16x9/s17": {
+    "hash": "9fd72d1b33cc32dc",
+    "output": "outputs/shots/16x9/s17.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:55:12+00:00"
+  },
+  "9x16/s17": {
+    "hash": "e12636db519de806",
+    "output": "outputs/shots/9x16/s17.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:55:18+00:00"
+  },
+  "16x9/s18": {
+    "hash": "3981c4ac6a839e6b",
+    "output": "outputs/shots/16x9/s18.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:55:23+00:00"
+  },
+  "9x16/s18": {
+    "hash": "84e3aa01af65e8bf",
+    "output": "outputs/shots/9x16/s18.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:55:28+00:00"
+  },
+  "16x9/s19": {
+    "hash": "6be4317e03b856cc",
+    "output": "outputs/shots/16x9/s19.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:56:14+00:00"
+  },
+  "9x16/s19": {
+    "hash": "46ea1337ec276163",
+    "output": "outputs/shots/9x16/s19.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:56:23+00:00"
+  },
+  "16x9/s20": {
+    "hash": "1e323794e2224e29",
+    "output": "outputs/shots/16x9/s20.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:56:30+00:00"
+  },
+  "9x16/s20": {
+    "hash": "85cdfc519e396b9a",
+    "output": "outputs/shots/9x16/s20.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T13:56:37+00:00"
+  },
+  "16x9/s21": {
+    "hash": "53d3d42e2ff86ab0",
+    "output": "outputs/shots/16x9/s21.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:37:27+00:00"
+  },
+  "9x16/s21": {
+    "hash": "21989c913fee7bc5",
+    "output": "outputs/shots/9x16/s21.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:37:42+00:00"
+  },
+  "16x9/s22": {
+    "hash": "b3d487d08b7b7dab",
+    "output": "outputs/shots/16x9/s22.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:37:54+00:00"
+  },
+  "9x16/s22": {
+    "hash": "ec6672f6f5233ecf",
+    "output": "outputs/shots/9x16/s22.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:38:06+00:00"
+  },
+  "16x9/s23": {
+    "hash": "cec03de5ac216cc5",
+    "output": "outputs/shots/16x9/s23.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:38:18+00:00"
+  },
+  "9x16/s23": {
+    "hash": "d1cb81b68a888326",
+    "output": "outputs/shots/9x16/s23.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:38:28+00:00"
+  },
+  "16x9/s24": {
+    "hash": "4ada7c904d7077bd",
+    "output": "outputs/shots/16x9/s24.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:57:33+00:00"
+  },
+  "9x16/s24": {
+    "hash": "a005200173b041e8",
+    "output": "outputs/shots/9x16/s24.mp4",
+    "mode": "final",
+    "updated": "2026-11-26T14:57:40+00:00"
+  }
+}
