@@ -9,6 +9,8 @@ An Amharic short film adapted from **Temesgen Gebre's *Yegulelew Sekaram* (1948)
 
 **Narration:** excerpts of the Ethio Atronos Amharic audiobook, used with the narrator's permission (see [ETHICS.md](ETHICS.md)). The full recording is **not** in this repo: only the cut excerpts in `outputs/narration/` are committed, and a clean clone runs from them.
 
+> **Report:** [report/Heritage_Short_Report.pdf](report/Heritage_Short_Report.pdf) (Word: [docx](report/Heritage_Short_Report.docx)) · **Showcase site:** `site/` (deploy on Vercel) · **Shot list:** `storyboard.json` (s01–s09), `storyboard_family.json` (f01–f23)
+
 ## Run it
 
 ```bash

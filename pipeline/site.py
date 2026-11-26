@@ -173,10 +173,13 @@ def main() -> None:
         v = web_video(name, width)
         if v:
             vids[key] = (f"media/{v.name}", label)
-    hero = poster("hero", kdir / "s04.png")
-    pv = poster("poster_vertical", kdir / "s24.png" if (kdir / "s24.png").exists() else kdir / "s01.png")
-    ph = poster("poster_family", kdir / "s02.png")
-    p169 = poster("poster_horizontal", kdir / "s12.png")
+    # Posters by beat, not by id, so renumbering shots never breaks the page
+    by_beat = {s["beat"]: s["id"] for s in fam["shots"] + sb["shots"]}
+    pick = lambda beat, fallback: kdir / f"{by_beat.get(beat, fallback)}.png"
+    hero = poster("hero", pick("Gulele is asleep", "f10"))
+    pv = poster("poster_vertical", kdir / f"{sb['shots'][0]['id']}.png")
+    ph = poster("poster_family", pick("He built his own house", "f06"))
+    p169 = poster("poster_horizontal", pick("Nights of such vows pass", "s09"))
     s = stats()
     tl90 = json.loads((OUT / "final" / "timeline_heritage_short.json").read_text())
     tlf = json.loads((OUT / "final" / "timeline_family_cut.json").read_text())

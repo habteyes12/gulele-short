@@ -90,19 +90,19 @@
     },
     "cues": [
       {
-        "at_shot": "s24",
+        "at_shot": "s01",
         "note": "under the voice from the start"
       },
       {
-        "at_shot": "s06",
+        "at_shot": "s04",
         "note": "comic lift at the pig"
       },
       {
-        "at_shot": "s09",
+        "at_shot": "s07",
         "note": "near silence on the railway"
       },
       {
-        "at_shot": "s12",
+        "at_shot": "s09",
         "note": "theme returns, fades under the end card"
       }
     ]
@@ -111,7 +111,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s24",
+      "id": "s01",
       "beat": "The drunk of Gulele",
       "reason": "Establishes the place, the man and his reputation in one image.",
       "shot_size": "wide",
@@ -127,18 +127,18 @@
         "file": "assets/narration/atronos_full.m4a",
         "segments": [
           [
-            18.4,
-            26.9
+            32.9,
+            37.15
           ]
         ]
       },
       "notes": "Short form of s01 for the 90 s cut; same image as s01. The full opening sentence is s01 in storyboard_family.json.",
-      "keyframe_from": "s01"
+      "keyframe_from": "f01"
     },
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s03",
+      "id": "s02",
       "beat": "The drunkard of Gulele's house",
       "reason": "Turning point: he hears his own reputation and is shaken.",
       "shot_size": "close_up",
@@ -163,7 +163,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s04",
+      "id": "s03",
       "beat": "Gulele is asleep",
       "reason": "The vow breaks the same night; the laugh keeps him human.",
       "shot_size": "medium",
@@ -188,7 +188,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s06",
+      "id": "s04",
       "beat": "It was a pig",
       "reason": "His only brave deed becomes a joke: a drunk's courage counts for nothing.",
       "shot_size": "medium",
@@ -213,7 +213,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s07",
+      "id": "s05",
       "beat": "Just today, just a little",
       "reason": "After nearly two sober years, the craving wins.",
       "shot_size": "medium_close_up",
@@ -238,7 +238,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s08",
+      "id": "s06",
       "beat": "Carried like a leader",
       "reason": "His old drinking friends welcome him back like a hero.",
       "shot_size": "wide",
@@ -263,7 +263,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s09",
+      "id": "s07",
       "beat": "The railway",
       "reason": "The price of drink, shown without gore.",
       "shot_size": "wide",
@@ -288,7 +288,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s10",
+      "id": "s08",
       "beat": "How many legs do I have?",
       "reason": "The dream breaks; the comic, human exchange releases the tension.",
       "shot_size": "medium",
@@ -314,7 +314,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s12",
+      "id": "s09",
       "beat": "Nights of such vows pass",
       "reason": "His biggest vow and her quiet doubt; the viewer decides.",
       "shot_size": "wide",
@@ -382,6 +382,16 @@
       "date": "2026-11-26",
       "source": "user choice (option C)",
       "change": "90 s cut keeps the short S01 (shot s24, 8.5 s) so every story beat fits; the full four-passage opening lives in the family cut."
+    },
+    {
+      "date": "2026-11-26",
+      "source": "user listening + transcript check (gemini-3.5-flash-lite)",
+      "change": "s24 cut moved to 32.9-37.15 s: the old cut started inside the audiobook intro (narrator credit) and stopped mid-sentence at 'ከገፈርሳ'."
+    },
+    {
+      "date": "2026-11-26",
+      "source": "user: shot numbers looked out of order",
+      "change": "Renumbered shots to match their order (s24->s01, s03->s02, s04->s03, s06->s04, s07->s05, s08->s06, s09->s07, s10->s08, s12->s09). Story order was already correct (audio start times increase); only the ids changed. Earlier log entries use the old ids."
     }
   ],
   "narration_credit": "Narration: Ethio Atronos audiobook, used with permission"

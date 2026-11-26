@@ -105,3 +105,15 @@ Write down what really happens: wrong TTS model ID (`python -m pipeline.smoke` l
   2. New storyboard field `keyframe_from`: a shot can borrow an approved image (`s01`, or `ref:tiruneshe` for the reference sheet). Nothing is called, and the borrowing is logged as `borrowed:<id>`.
   3. The submission cut needed no new images, so it was not blocked.
 - **TODO:** when the allowance resets, remove `keyframe_from` from s21, s22 and s23 in `storyboard_family.json` and re-run. Only those 3 images and their clips will regenerate.
+
+## F18. S01 included the narrator's credit and stopped mid-sentence
+
+- **Broke:** the project author heard "…ተራኪ ሳሙኤል አዱኛ" at the start of S01. The cached transcript of the 18.40–26.90 s cut also showed it ended at "ከገፈርሳ", halfway through the sentence. So the 90 s cut's first subtitle ("Tebeje, Tebeje the drunk…") did not match its audio. The aligner had located the right sentence, but the pause snapping picked boundaries inside the audiobook's spoken intro.
+- **How it was found:** a per-0.5 s loudness map of the first 28 s showed title (2.4–4.4 s), author (5.7–7.9 s), narrator credit (9.5–11.8 s), 6 s of silence, "ክፍል አንድ" (18.4 s), then the story starting at 21.8 s. Transcribing 21.70–37.15 with `gemini-3.5-flash-lite` (the only model not returning 503) gave exactly the full S01 sentence, and 37.1–41.5 was the next sentence.
+- **Fix:** family s01 is 21.70–37.15 (the full sentence); 90 s s24 is 32.90–37.15 ("ተበጀ፣ ሰካራሙ ተበጀ…", matching its subtitle).
+- **Lesson:** "cuts sound good" by ear is not enough when the listener knows the story. Compare every cut's transcript with its subtitle text.
+
+## F19. Two cuts sharing shot ids overwrote each other's cache
+
+- **Broke:** the project author saw shot numbers out of order (s24, s03, s04… in the 90 s cut; s01, s13, s21… in the family cut) and asked whether the film followed the story. It did: audio start times increase in both cuts (32.9 s → 1593.7 s and 21.7 s → 1593.7 s). But the ids had drifted as shots were added and cut. Worse, the two cuts used the same ids for the same beats with different timing (different lead/tail), so each render overwrote the other's cached clips (`shots` cache key `<aspect>/<id>`), and the next render of the other cut redid all of them.
+- **Fix:** renumbered by position, with a namespace per cut: `s01–s09` (submission) and `f01–f23` (family). Images, audio excerpts, clips and cache entries were copied to the new names, so no model was called. The schema id pattern is now `^[sf][0-9]{2}$`. The site picks posters by beat name, not id.

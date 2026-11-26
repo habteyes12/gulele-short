@@ -31,7 +31,7 @@
     },
     "target_duration_s": [
       150,
-      240
+      270
     ],
     "narration_lead_s": 0.2,
     "narration_tail_s": 0.3
@@ -90,19 +90,19 @@
     },
     "cues": [
       {
-        "at_shot": "s01",
+        "at_shot": "f01",
         "note": "under the voice from the start"
       },
       {
-        "at_shot": "s06",
+        "at_shot": "f13",
         "note": "comic lift at the pig"
       },
       {
-        "at_shot": "s09",
+        "at_shot": "f18",
         "note": "near silence on the railway"
       },
       {
-        "at_shot": "s12",
+        "at_shot": "f23",
         "note": "theme returns, fades under the end card"
       }
     ]
@@ -111,7 +111,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s01",
+      "id": "f01",
       "beat": "The drunk of Gulele",
       "reason": "Establishes the place, the man and his reputation in one image.",
       "shot_size": "wide",
@@ -127,14 +127,14 @@
         "file": "assets/narration/atronos_full.m4a",
         "segments": [
           [
-            9.55,
-            26.9
+            21.7,
+            37.15
           ]
         ]
       }
     },
     {
-      "id": "s13",
+      "id": "f02",
       "beat": "Laughing with everyone",
       "reason": "Shows the lovable, noisy drunk Gulele knows.",
       "shot_size": "medium",
@@ -159,7 +159,7 @@
       }
     },
     {
-      "id": "s21",
+      "id": "f03",
       "beat": "Gossip at the coffee fire",
       "reason": "Shows how Tebeje became Gulele's legend: every drunk story is told about him.",
       "shot_size": "medium",
@@ -185,7 +185,7 @@
       "keyframe_from": "ref:tiruneshe"
     },
     {
-      "id": "s22",
+      "id": "f04",
       "beat": "A stranger out of the eucalyptus",
       "reason": "The legend becomes a man: worse or better than they say, he walks out of the forest.",
       "shot_size": "wide",
@@ -208,10 +208,10 @@
           ]
         ]
       },
-      "keyframe_from": "s01"
+      "keyframe_from": "f01"
     },
     {
-      "id": "s23",
+      "id": "f05",
       "beat": "The house past the bridge",
       "reason": "Places his home exactly, as the story does; sets up the house that matters.",
       "shot_size": "extreme_wide",
@@ -232,12 +232,12 @@
           ]
         ]
       },
-      "keyframe_from": "s02"
+      "keyframe_from": "f06"
     },
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s02",
+      "id": "f06",
       "beat": "He built his own house",
       "reason": "The house is his pride and the stakes of the story.",
       "shot_size": "medium_close_up",
@@ -260,7 +260,7 @@
       }
     },
     {
-      "id": "s14",
+      "id": "f07",
       "beat": "The tear",
       "reason": "A close moment of pride and tenderness.",
       "shot_size": "extreme_close_up",
@@ -287,7 +287,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s03",
+      "id": "f08",
       "beat": "The drunkard of Gulele's house",
       "reason": "Turning point: he hears his own reputation and is shaken.",
       "shot_size": "close_up",
@@ -310,7 +310,7 @@
       }
     },
     {
-      "id": "s15",
+      "id": "f09",
       "beat": "For the honour of the house",
       "reason": "His first vow to quit.",
       "shot_size": "close_up",
@@ -337,7 +337,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s04",
+      "id": "f10",
       "beat": "Gulele is asleep",
       "reason": "The vow breaks the same night; the laugh keeps him human.",
       "shot_size": "medium",
@@ -360,7 +360,7 @@
       }
     },
     {
-      "id": "s16",
+      "id": "f11",
       "beat": "Half the bottle",
       "reason": "The comic relapse under the moon.",
       "shot_size": "close_up",
@@ -385,7 +385,7 @@
       }
     },
     {
-      "id": "s05",
+      "id": "f12",
       "beat": "The flood",
       "reason": "His courage: he is the only one who goes into the water.",
       "shot_size": "wide",
@@ -412,7 +412,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s06",
+      "id": "f13",
       "beat": "It was a pig",
       "reason": "His only brave deed becomes a joke: a drunk's courage counts for nothing.",
       "shot_size": "medium",
@@ -435,7 +435,7 @@
       }
     },
     {
-      "id": "s17",
+      "id": "f14",
       "beat": "A drunk's good deeds",
       "reason": "The theme: his goodness counts for nothing because he drinks.",
       "shot_size": "wide",
@@ -460,7 +460,7 @@
       }
     },
     {
-      "id": "s18",
+      "id": "f15",
       "beat": "Five months sober",
       "reason": "Real change: he stops drinking for the house.",
       "shot_size": "medium_close_up",
@@ -487,7 +487,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s07",
+      "id": "f16",
       "beat": "Just today, just a little",
       "reason": "After nearly two sober years, the craving wins.",
       "shot_size": "medium_close_up",
@@ -512,7 +512,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s08",
+      "id": "f17",
       "beat": "Carried like a leader",
       "reason": "His old drinking friends welcome him back like a hero.",
       "shot_size": "wide",
@@ -537,7 +537,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s09",
+      "id": "f18",
       "beat": "The railway",
       "reason": "The price of drink, shown without gore.",
       "shot_size": "wide",
@@ -560,7 +560,7 @@
       }
     },
     {
-      "id": "s19",
+      "id": "f19",
       "beat": "The doctor",
       "reason": "The nightmare's cruel climax, kept off-screen.",
       "shot_size": "medium",
@@ -585,7 +585,7 @@
       }
     },
     {
-      "id": "s20",
+      "id": "f20",
       "beat": "The dogs wake him",
       "reason": "The twist: it was a dream.",
       "shot_size": "medium",
@@ -612,7 +612,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s10",
+      "id": "f21",
       "beat": "How many legs do I have?",
       "reason": "The dream breaks; the comic, human exchange releases the tension.",
       "shot_size": "medium",
@@ -636,7 +636,7 @@
       }
     },
     {
-      "id": "s11",
+      "id": "f22",
       "beat": "Two legs, sir",
       "reason": "Relief: the dream was not real; he tries to kiss his own leg.",
       "shot_size": "medium_close_up",
@@ -664,7 +664,7 @@
     {
       "video_prompt": "slow gentle camera move, subtle natural motion",
       "min_duration_s": 4,
-      "id": "s12",
+      "id": "f23",
       "beat": "Nights of such vows pass",
       "reason": "His biggest vow and her quiet doubt; the viewer decides.",
       "shot_size": "wide",
@@ -707,6 +707,16 @@
       "date": "2026-11-26",
       "source": "user (native speaker)",
       "change": "S01 uses the full opening sentence. Family cut opens with the book's first four passages: coffee-fire gossip (s21), 'this was true' (s22), the house past the bridge (s23)."
+    },
+    {
+      "date": "2026-11-26",
+      "source": "user listening + transcript check (gemini-3.5-flash-lite)",
+      "change": "s01 cut moved to 21.7-37.15 s: the old cut started inside the audiobook intro (narrator credit) and stopped mid-sentence at 'ከገፈርሳ'."
+    },
+    {
+      "date": "2026-11-26",
+      "source": "user: shot numbers looked out of order",
+      "change": "Renumbered shots to match their order (s01->f01, s13->f02, s21->f03, s22->f04, s23->f05, s02->f06, s14->f07, s03->f08, s15->f09, s04->f10, s16->f11, s05->f12, s06->f13, s17->f14, s18->f15, s07->f16, s08->f17, s09->f18, s19->f19, s20->f20, s10->f21, s11->f22, s12->f23). Story order was already correct (audio start times increase); only the ids changed. Earlier log entries use the old ids."
     }
   ],
   "narration_credit": "Narration: Ethio Atronos audiobook, used with permission",

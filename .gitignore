@@ -22,3 +22,4 @@ outputs/final/*.wav
 outputs/shots/
 outputs/music/score*.wav
 outputs/transcripts/*/align/
+outputs/transcripts/*/*.mp3

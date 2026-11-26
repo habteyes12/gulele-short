@@ -1,74 +1,74 @@
 [
   {
-    "id": "s24",
+    "id": "s01",
     "start": 0.0,
-    "duration": 8.791666666666666,
-    "frames": 211,
+    "duration": 4.541666666666667,
+    "frames": 109,
     "voice_start": 0.1,
-    "voice_duration": 8.5
+    "voice_duration": 4.25
   },
   {
-    "id": "s03",
-    "start": 8.792,
+    "id": "s02",
+    "start": 4.542,
     "duration": 10.916666666666666,
     "frames": 262,
-    "voice_start": 8.892,
+    "voice_start": 4.642,
     "voice_duration": 10.6
   },
   {
-    "id": "s04",
-    "start": 19.708,
+    "id": "s03",
+    "start": 15.458,
     "duration": 6.791666666666667,
     "frames": 163,
-    "voice_start": 19.808,
+    "voice_start": 15.558,
     "voice_duration": 6.5
   },
   {
-    "id": "s06",
-    "start": 26.5,
+    "id": "s04",
+    "start": 22.25,
     "duration": 7.166666666666667,
     "frames": 172,
-    "voice_start": 26.6,
+    "voice_start": 22.35,
     "voice_duration": 6.85
   },
   {
-    "id": "s07",
-    "start": 33.667,
+    "id": "s05",
+    "start": 29.417,
     "duration": 8.541666666666666,
     "frames": 205,
-    "voice_start": 33.767,
+    "voice_start": 29.517,
     "voice_duration": 8.25
   },
   {
-    "id": "s08",
-    "start": 42.208,
+    "id": "s06",
+    "start": 37.958,
     "duration": 6.0,
     "frames": 144,
-    "voice_start": 42.308,
+    "voice_start": 38.058,
     "voice_duration": 5.7
   },
   {
-    "id": "s09",
-    "start": 48.208,
+    "id": "s07",
+    "start": 43.958,
     "duration": 13.416666666666666,
     "frames": 322,
-    "voice_start": 48.308,
+    "voice_start": 44.058,
     "voice_duration": 13.1
   },
   {
-    "id": "s10",
-    "start": 61.625,
+    "id": "s08",
+    "start": 57.375,
     "duration": 8.791666666666666,
     "frames": 211,
-    "voice_start": 61.725,
+    "voice_start": 57.475,
     "voice_duration": 8.5
   },
   {
-    "id": "s12",
-    "start": 70.417,
+    "id": "s09",
+    "start": 66.167,
     "duration": 15.0,
     "frames": 360,
-    "voice_start": 70.517,
+    "voice_start": 66.267,
     "voice_duration": 14.69
   }
 ]
